@@ -39,4 +39,5 @@ body{
 	background-color: black;
 	cursor: e-resize;
     transition-duration: 0.6s;
+	transform:scale(1.1);
 }
