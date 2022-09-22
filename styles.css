@@ -1,0 +1,42 @@
+body{
+	background-color: black;
+}
+#container{
+	display: flex;
+	justify-content: center;
+	align-content: center;
+}
+#block{
+	background-color: white;
+	height: 500px;
+	width: 500px;
+    text-align: center;
+    padding-top: 70px;
+    margin: 80px;
+    border-radius: 10px;
+    box-shadow: 4px -4px darkgrey, -4px 4px darkgrey;
+}
+.credentials{
+	height: 40px;
+	width: 245px;
+	border-radius: 8px;
+    padding-left: 8px ;
+}
+#top{
+	padding: 10px 0px 25px 0px;
+	font-size: 25px;
+	font-weight: 700px;
+}
+#bottom{
+	padding-bottom: 15px;
+}
+#button{
+	background-color: darkgrey;
+	border: 2px solid black;
+}
+#button:hover{
+	color: red;
+	background-color: black;
+	cursor: e-resize;
+    transition-duration: 0.6s;
+}
