@@ -1,20 +1,24 @@
 body{
-	background-color: black;
+	background-color: white;
 }
+#login{
+    background-position: center;
+	background-size: cover;
+	}
 #container{
-	display: flex;
+	display:flex;
 	justify-content: center;
-	align-content: center;
+	align-items: center;
 }
 #block{
 	background-color: white;
-	height: 500px;
-	width: 500px;
+	border:  1px solid black;
+	height: 65vh;
+	width: 65vh;
     text-align: center;
     padding-top: 70px;
     margin: 80px;
     border-radius: 10px;
-    box-shadow: 4px -4px darkgrey, -4px 4px darkgrey;
 }
 .credentials{
 	height: 40px;
@@ -22,10 +26,14 @@ body{
 	border-radius: 8px;
     padding-left: 8px ;
 }
+.credentials:hover{
+	border-color: black;
+}
 #top{
 	padding: 10px 0px 25px 0px;
 	font-size: 25px;
 	font-weight: 700px;
+	font-family: cursive;
 }
 #bottom{
 	padding-bottom: 15px;
@@ -39,5 +47,5 @@ body{
 	background-color: black;
 	cursor: e-resize;
     transition-duration: 0.6s;
-	transform:scale(1.1);
+    transform: scale(1.1);
 }
